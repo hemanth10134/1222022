@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hug Day 🤗 | My Valentine</title>
+    <link rel="stylesheet" href="hug-day.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <div class="warmth-overlay"></div>
+    
+    <main class="container">
+        <h1 class="title">Happy Hug Day, My Love 🤗</h1>
+        <p class="subtitle">Bring us closer...</p>
+
+        <div class="hug-scene">
+            <div class="character character-left">
+                <!-- <div class="heart left-heart"></div> -->
+            </div>
+            <div class="character character-right">
+                <!-- <div class="heart right-heart"></div> -->
+            </div>
+            <div class="distance-meter">
+                <div class="meter-fill"></div>
+                <span class="meter-text">Distance apart</span>
+            </div>
+        </div>
+
+        <div class="message-container">
+            <div class="message hidden">
+                <p class="hug-message"></p>
+                <div class="heart-beats">
+                    <div class="beat beat-left"></div>
+                    <div class="beat beat-right"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="feelings-container">
+        <div class="feeling">Warmth</div>
+        <div class="feeling">Love</div>
+        <div class="feeling">Care</div>
+        <div class="feeling">Safety</div>
+        <div class="feeling">Trust</div>
+        <div class="feeling">Joy</div>
+    </div>
+
+    <audio id="heartbeatSound" preload="auto">
+        <source src="Heartbeat Normal - QuickSounds.com.mp3" type="audio/mpeg" style="display: none;" loop>
+    </audio>
+    
+    <script src="hugday.js"></script>
+</body>
+</html>
