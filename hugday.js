@@ -62,8 +62,8 @@ document.addEventListener("DOMContentLoaded", () => {
   
     function updateScene() {
       // Update character positions
-      const leftPos = 20 + distance * 0.3;
-      const rightPos = 20 + distance * 0.3;
+      const leftPos = 20 + distance * 0.9;
+      const rightPos = 20 + distance * 0.9;
   
       characterLeft.style.left = `${leftPos}%`;
       characterRight.style.right = `${rightPos}%`;
