@@ -170,7 +170,7 @@ document.addEventListener("DOMContentLoaded", () => {
           text-align: center;
           `;
       finalMessage.innerHTML =
-        '<image src="hug-day.gif" style="height:250px"></image><br> <span style="color:red;"> Vishal ❤️ Shubhangi <br>Give me a Jaadu ki Jhappi...<br></span><audio id="heartbeatSound" preload="auto"><source src="Heartbeat Normal - QuickSounds.com.mp3" type="audio/mpeg" style="display: none;" loop></audio>';
+        '<image src="hug-day.gif" style="height:250px"></image><br> <span style="color:red;"> Hemanth ❤️ kidd <br>it feels warmer now<br></span><audio id="heartbeatSound" preload="auto"><source src="Heartbeat Normal - QuickSounds.com.mp3" type="audio/mpeg" style="display: none;" loop></audio>';
   
       document.body.appendChild(finalMessage);
       document.getElementById("heartbeatSound").play();
